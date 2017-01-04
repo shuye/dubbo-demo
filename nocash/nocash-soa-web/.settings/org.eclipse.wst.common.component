@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="nocash-soa-web-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="nocash-soa-remote-0.0.1-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nocash-soa-remote/nocash-soa-remote">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="nocash-user-soa-remote-0.0.1-RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nocash-user-soa-remote/nocash-user-soa-remote">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="nocash-soa-web"/>
+        <property name="java-output-path" value="/nocash-soa-web/target/classes"/>
+    </wb-module>
+</project-modules>
